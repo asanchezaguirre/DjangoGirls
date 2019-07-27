@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.Inicio),
     path('autor/<int:iduser>', views.Inicio),
+    path('publicar', views.Publicar),
 ]
